@@ -1,3 +1,18 @@
+> [!WARNING]
+> **Tento fork je archivovaný a už se neudržuje.** Používejte původní integraci
+> [kukulich/home-assistant-aladin-online](https://github.com/kukulich/home-assistant-aladin-online).
+> Od verze 3.0.0 (červen 2026) sama používá nové API ČHMÚ (`data-provider.chmi.cz`),
+> kvůli kterému tento fork vznikl.
+>
+> Fork zadává místo souřadnic ID stanice. Obsahuje známou chybu: entita počasí spadne
+> při porovnání časů s časovým pásmem a bez něj. Pokud ho máte v HACS, odeberte ho
+> a nainstalujte upstream. Integrace se nastavuje znovu, protože upstream místo ID
+> stanice používá souřadnice.
+>
+> *This fork is archived and unmaintained. Please use the upstream
+> [kukulich/home-assistant-aladin-online](https://github.com/kukulich/home-assistant-aladin-online),
+> which supports the new ČHMÚ API since 3.0.0.*
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs) 
 
 # Aladin online (Czech Republic)
